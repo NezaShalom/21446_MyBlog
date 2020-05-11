@@ -1,0 +1,210 @@
+.row{
+	max-width: 1140px;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+.hero{
+	position: absolute;
+	width: 1140px;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+
+
+/*For different image on different pages of the blog*/
+/*rgba for making it bouth(gabanya urumuri)*/
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(pic/blog.jpg);
+	height: 80vh;
+	background-position: center;
+	background-size: cover;
+}
+
+.cov{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(pic/corona.jpg);
+	height: 80vh;
+	background-position: center;
+	background-size: cover;
+}
+
+#de{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pic/ad.jpg);
+	height: 80vh;
+	background-position: center;
+	background-size: cover;		
+}
+
+
+h1{
+	color: white;
+}
+
+.main-nav{
+	list-style: none;
+	float: right;
+	margin-top: 60px;
+}
+
+.main-nav li{
+	display: inline-block;
+	margin-left: 10px;
+	padding-right: 60px;
+}
+
+.main-nav li a{
+	color: white;
+	text-decoration: none; 
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.main-nav li a:hover{
+	color: #e67e22;
+	border-bottom: 2px solid #e67e22;
+	transition: all 0.5s ease-in;
+}
+
+.my-title {
+	border-left: 5px solid #e67e22;
+	padding-left: 10px;
+}
+
+.wq {
+	padding-left: 21%;
+	color: #cccccc;
+	font-size:20px;
+}
+
+section #rowa {
+	margin: auto;
+}
+section #rowab {
+	margin: auto;	
+}
+.vid{
+	margin-top: 50px;
+	text-align: center;
+}
+.blog-it {
+	margin: 20px;
+	color: #202224;
+	
+}
+.swe {
+	color: #e67e22;
+	font-size:70px;
+}
+
+.card{
+	margin-top: 15px;
+	margin-left: 25%;
+	text-align: center;
+	margin-right: 25%;
+}
+
+.ws {
+	padding-left: 190px;
+	margin-bottom: 50px;
+}
+
+.stat{
+	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(pic/counterbg.jpg) no-repeat top center;
+    background-size: cover;
+		padding-top: 50px;
+		padding-bottom: 80px;
+		color: white;
+		margin-top: 50px;
+}
+
+.stat-items h2{
+	font-weight: bolder;
+	font-size: 32px;
+	color: darkorange;
+}
+
+.stat p{
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.er {
+	color: darkorange;
+}
+
+article#main-col{
+	margin-top: 60px;
+	width: 100%;
+}
+
+.dark{
+	padding: 15px;
+	background: #35424a;
+	color: #ffffff;  
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#footer {
+  padding: 7em 0;
+  clear: both;
+  color: #0f0f10;
+}
+
+
+@media screen and (max-width: 1506px) {
+
+	header{
+        height: 560px;      
+    }
+
+	header .hero h1{
+		margin-left: 30%;
+		font-size: 29px;
+		
+	}
+	header .wq {
+		margin-left: 10%;
+	
+	}
+
+	header ul li{
+		padding-bottom: 20px;
+		right: 50px;
+		float: right;	
+	}
+}
+
+	
+@media screen and (max-width: 785px) {
+
+    section #rowa {
+    	margin-left: 10px;
+    	margin-right: 10px;
+    }
+    section #rowab {
+    	margin-left: 10px;
+    	margin-right: 10px;
+    }
+	
+	section .ws{
+		padding-left: 120px;
+	}
+
+	#footer .copyright .pull-left,
+	#footer .copyright .pull-right {
+    float: none !important;
+    text-align: center;
+  }
+
+	article#main-col{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+}
